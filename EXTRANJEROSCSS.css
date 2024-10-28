@@ -1,0 +1,86 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    font-size: 16px;
+    line-height: 1.6;
+    color: #333;
+}
+
+.header {
+    background-color: #0052cc;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.header-content {
+    display: flex;
+    align-items: center; /* Alinea verticalmente el logo y el título */
+    justify-content: center; /* Centra el contenido en el medio */
+    gap: 100px; /* Espacio entre el logo y el título */
+}
+
+.logo img {
+    max-width: 250px;
+    height: auto;
+}
+
+.header h1 {
+    font-size: 4em;
+    margin: 0;
+}
+main {
+    padding: 20px;
+}
+
+.info {
+    margin: 20px 0;
+}
+
+.info h2 {
+    font-size: 1.5em;
+    background-color: #f0f0f0;
+    padding: 10px;
+    border-left: 5px solid #0052cc;
+}
+
+.info h3 {
+    font-size: 1.2em;
+    margin-top: 15px;
+    text-align: center;
+}
+
+.airlines {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px;
+}
+
+.airlines img {
+    max-width: 200px;
+    max-height: 50px;
+    height: auto;
+    width: auto;   
+}
+
+.metro-map {
+    max-width: 100%;
+    margin-top: 10px;
+}
+
+footer {
+    background-color: #0052cc;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    font-size: 0.9em;
+}
+
+footer p {
+    margin: 5px 0;
+}
